@@ -1,0 +1,22 @@
+POST http://localhost:5050/api/HttpTriggerCSharp
+Content-Type: application/json
+
+{
+    "name":"Test"
+}
+
+#### api
+POST http://localhost:5010/api/values
+Content-Type: application/json
+
+{
+    "name":"Test"
+}
+
+### kube
+POST http://localhost:30950/api/values
+Content-Type: application/json
+
+{
+    "name":"Test"
+}
